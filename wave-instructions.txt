@@ -1,0 +1,42 @@
+Wave Theme for Textpattern
+
+INSTALLATION INSTRUCTIONS
+
+1 FTP the latest version of Textpattern to your remote website
+
+2 INSTALL it as per instructions, delete the Setup folder, log in, check Diagnostics, check all is working as you'd expect. Log out.
+ 
+3 IN YOUR WAVETHEME ZIP you should have a css folder, images folder, wave folder, wave.sql file, favicon.ico, favicon.png, wave.png, about-this-theme.txt and these wave-instructions.txt.
+
+4 TRANSFER the css folder across to your remote website so it is alongside files, images, rpc, sites, textpattern and themes folders.
+
+5 Open the remote images folder and transfer the contents of the local images folder across into it.
+
+6 Open the remote themes folder and transfer the wave folder across into it.
+
+7 Open the remote files folder and transfer wave.png into it
+
+8 Transfer favicon.ico and favicon.png into the root directory (where you installed Textpattern and where all the folders you've been opening are located) 
+
+9 Note that steps 7 & 8 are to prevent error messages later on
+
+10 IN YOUR REMOTE HOST CONTROL PANEL DASHBOARD - in PhpMyAdmin or using any other method you are comfortable with - locate and select the database you've just installed Textpattern in. 
+
+11 Click the option below the tables to Check All and With selected: Drop. All tables will be gone.
+
+12 Select the menu option to Import. Browse and find wave.sql. Leave everything else as it is, and click Go.
+
+13 You should soon get a green message:  Import has been successfully finished, 78 queries executed. (wave.sql)
+
+14 LOG IN TO YOUR REMOTE WEBSITE AGAIN and you should see "Wave Theme" in the menu bar at the top of the screen. Don't click it just yet.
+
+15 Next to Wave Theme is Admin, click it, click Preferences.
+
+16 Site Preferences will show the Site URL as wave.gud.one and you'll need to correct this for your site to work.
+
+17 In Admin Preferences, insert the correct path to the textpattern/tmp folder.
+
+18 You can now click on Wave Theme on the menu bar and be taken to the front end of your fully working website theme.
+
+All instructions for how to use and alter the theme are there on your single-page theme. Please read them carefully and I hope you'll soon get the grasp of what is what and how you can mould it into a great website. If you have any questions please ask them in the Theme Support section of forum.textpattern.com
+
