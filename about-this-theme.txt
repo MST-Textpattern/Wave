@@ -1,0 +1,11 @@
+ABOUT THE WAVE THEME FOR TEXTPATTERN
+
+When I hand my business card to people who ask what I do, I need a website to show me off, to help me sell my services. This theme comes from that. I believe it is called a brochure website. Made with Textpattern, my favourite CMS, I soon turned it into a single-page site for speed, seo and simplicity. Speed - because there are less requests to the server. SEO - because all links point to just one page so are more concentrated. Simplicity - I'm always trying to find ways to simplify and de-clutter, so there's more focus on the things that matter.
+
+For my purposes I prefer clients to phone me, so I've hidden away the contact form in the theme (but it can easily be unhidden). I don't see much point in having the usual Search, but your needs may be different so, again, this can be unhidden. I haven't made a promo video yet, but there's one in the theme hidden away and set up so you can easily add your own if you wish.
+
+That leaves the focus on the headline text and image, and then the introductory bullet points with vital information so they can quickly see that this is what they are looking for. Once they've got to this point, it's a case of reinforcing the message, adding trust and going into as much detail as they need to answer their questions.
+
+So that's the aim and the design revolves around that. I hope it suits your needs too.
+
+
