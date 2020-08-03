@@ -1,0 +1,16 @@
+<footer class="footer" id="footer">
+
+<h2>100% Discount on our FREE Wave download if you Buy Now!</h2>
+
+<txp:file_download_list id="1" class="touch download" wraptag="p"><txp:file_download form="file" /></txp:file_download_list>
+
+<txp:body />
+
+<p>Published with <a href="https://textpattern.com/" rel="external">Textpattern CMS</a> &middot; Design is a <a href="https://gud.one/" rel="external">Gud One</a></p>
+		<a class="topr" href="" > ↑ </a>
+		<a class="topl" href="" > ↑ </a>
+
+<txp:hide>
+<div class="serchwrap"><txp:search_input form="search_input2" /></div>
+</txp:hide>
+</footer>

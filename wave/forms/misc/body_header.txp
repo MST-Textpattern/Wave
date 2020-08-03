@@ -1,0 +1,19 @@
+<header class="site-header" itemscope itemtype="https://schema.org/Organization">
+		<mark id="logo" accesskey="1" itemprop="Brand" ><a href="<txp:site_url />"><img src="<txp:site_url />images/wave-logo144.png" alt="a wavy line under the word wave" title="wave template for Textpattern" width="144" height="34" /></a>
+		</mark>
+	</header>
+
+
+<nav class="nav" aria-label="<txp:text item="site_nav" />" itemscope itemtype="https://schema.org/SiteNavigationElement">
+		<ul>
+			<li class="download"><txp:file_download_list id="1" wraptag=""><txp:file_download form="file" /></txp:file_download_list></li>
+			<li><a class="" href="#what">what</a></li>
+			<li><a class="" href="#who">who</a></li>
+			<li><a class="" href="#why">why</a></li>
+		</ul>
+<txp:hide>
+<txp:search_input />
+</txp:hide>
+	</nav>
+
+<!-- ooooooo -->

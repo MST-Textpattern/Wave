@@ -1,0 +1,8 @@
+<header class="section_head">
+<h2 itemprop="headline"><txp:title /><br />
+  <span itemprop="alternativeHeadline" class="subhead"><txp:custom_field name="subhead" /></span>
+</h2>
+<txp:if_custom_field name="body"><txp:body /></txp:if_custom_field>
+</header>
+
+<!-- ~~~~~~~~~~ -->

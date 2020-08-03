@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="<txp:lang />" dir="<txp:text item="lang_dir" />">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title><txp:error_status /></title>
+
+<link rel="stylesheet" href="<txp:site_url />css/wave.css">
+
+    <meta name="generator" content="Textpattern CMS">
+    <meta name="robots" content="none">
+
+</head>
+
+<body class="error-page" itemscope itemtype="https://schema.org/WebPage">
+
+    <txp:output_form form="body_header" />
+
+    <div class="wrapper">
+        <div class="container">
+
+            <!-- Main content -->
+            <main id="main" aria-label="<txp:text item="main_content" />">
+                <h1 class="error-status"><txp:error_status /></h1>
+                <p class="error-msg"><txp:error_message /><br /><br /><txp:link_to_home>Home</txp:link_to_home></p>
+            </main>
+
+        </div> <!-- /.container -->
+    </div> <!-- /.wrapper -->
+
+</body>
+</html>

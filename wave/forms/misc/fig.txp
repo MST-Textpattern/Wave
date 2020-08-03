@@ -1,0 +1,8 @@
+<figure<txp:if_yield name="class"> class="<txp:yield name="class" />"</txp:if_yield> itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+    <txp:image id='<txp:yield name="id" />' />
+    <txp:if_yield name="caption">
+        <figcaption itemprop="caption"><txp:yield name="caption" escape="tidy,textile" /></figcaption>
+    <txp:else />
+        <txp:image_info id='<txp:yield name="id" />' wraptag="figcaption" escape="tidy,textile" />
+    </txp:if_yield>
+</figure>

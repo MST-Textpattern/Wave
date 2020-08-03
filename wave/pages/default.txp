@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="<txp:lang />" dir="<txp:text item="lang_dir" />">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title><txp:page_title /></title>
+
+<link rel="stylesheet" href="<txp:site_url />css/wave.css">
+
+    <meta name="generator" content="Textpattern CMS">
+
+    <txp:if_search>
+        <meta name="robots" content="none">
+    <txp:else />
+            <txp:meta_description />
+                    <meta name="robots" content="index, nofollow">
+                    <link rel="canonical" href="<txp:site_url />">
+                    <script type="application/ld+json">
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "WebSite",
+                            "headline": "<txp:site_name escape="json" />",
+                            <txp:if_description>"description": "<txp:meta_description format="" escape="json" />",</txp:if_description>
+                            "url": "<txp:site_url escape="json" />"
+                        }
+                    </script>
+                <txp:variable name="front-page" value="1" />
+    </txp:if_search>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<txp:if_variable name="front-page">
+    <body class="front-page" itemscope itemtype="https://schema.org/WebPage">
+<txp:else />
+    <txp:if_search>
+        <body class="search-page" itemscope itemtype="https://schema.org/SearchResultsPage">
+    <txp:else />
+        <body class="listing-page" itemscope itemtype="https://schema.org/CollectionPage">
+    </txp:if_search>
+</txp:if_variable>
+
+<main id="main" aria-label="<txp:text item="main_content" />" itemscope itemtype="https://schema.org/Blog">
+
+    <txp:output_form form="body_header" />
+
+	<hr class="top" />
+
+                <txp:if_search>
+                    <txp:output_form form="search_display" />
+                </main>
+                <txp:else />
+
+                    <txp:if_variable name="front-page">
+
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<txp:article_custom form="big-intro" id="1" limit="1" />
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<hr />
+<section id="what">
+<txp:article_custom form="intro-what" id="2" limit="1" />
+<txp:article_custom form="what" id="3" limit="1" />
+<hr />
+<txp:article_custom form="what" id="4" limit="1" />
+<hr />
+<txp:article_custom form="what" id="5" limit="1" />
+</section>
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<hr />
+<section id="who">
+<txp:article_custom form="intro-who" id="2" limit="1" />
+<txp:article_custom id="6" form="who" limit="1" />
+<hr />
+<txp:article_custom id="7" limit="1" />
+<hr />>
+<txp:article_custom id="8" limit="1" />
+</section>
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+
+<hr />
+<section id="why">
+<txp:article_custom form="intro-why" id="2" limit="1" />
+<txp:article_custom id="3" limit="1" />
+<!-- ooooooo -->
+<hr id="how" />
+<txp:article_custom id="4" limit="1" />
+<!-- ooooooo -->
+<hr id="how2" />
+<txp:article_custom id="5" limit="1" />
+<!-- ooooooo -->
+<hr id="seo" />
+<txp:article_custom id="6" limit="1" />
+</section>
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<txp:hide>
+<txp:output_form form="body_aside" />
+</txp:hide>
+
+<hr />
+
+</main>
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+<txp:article_custom id="9" form="footer" limit="1" />
+
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+                    </txp:if_variable>
+
+                </txp:if_search>
+
+</body>
+</html>

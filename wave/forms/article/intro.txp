@@ -1,0 +1,25 @@
+<article class="intro" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+
+<div class="intro-block">
+  <div class="intro-block1">
+
+  <h2 itemprop="headline"><txp:custom_field name="intro-title" /></h2>
+				
+  <txp:images limit="1">
+  <txp::fig />
+  </txp:images>         
+  
+</div>
+			
+  <div itemprop="articleBody" class="intro-block2 <txp:custom_field name="zebra" />">
+
+  <txp:excerpt />
+
+  </div>
+</div>
+
+</article>
+
+<!-- ooooooo -->
+
+<hr />

@@ -1,0 +1,16 @@
+<article class="article <txp:if_custom_field name="zebra">zebra</txp:if_custom_field>" itemprop="Article" itemscope itemtype="https://schema.org/WebContent">
+   
+        <h3 itemprop="headline"><txp:custom_field name="intro-title" /><br /><txp:if_custom_field name="subhead2">
+<span itemprop="alternativeHeadline" class="subhead"><txp:custom_field name="subhead2" /></span></txp:if_custom_field></h3>
+
+    <txp:images limit="1" offset="1">
+        <txp::fig />
+    </txp:images>
+
+    <div itemprop="articleBody">
+        <txp:excerpt />
+    </div>
+
+</article>
+
+<!-- ooooooo -->

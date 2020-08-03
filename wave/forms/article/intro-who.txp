@@ -1,0 +1,8 @@
+<header class="section_head">
+<h2 itemprop="headline"><txp:category1 title="1" /><br />
+  <span itemprop="alternativeHeadline" class="subhead"><txp:custom_field name="subhead2" /></span>
+</h2>
+<txp:if_excerpt><txp:excerpt /></txp:if_excerpt>
+</header>
+
+<!-- ~~~~~~~~~~ -->

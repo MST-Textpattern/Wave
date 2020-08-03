@@ -1,0 +1,37 @@
+<article class="headline" itemprop="Article" itemscope itemtype="https://schema.org/WebContent">
+
+<div class="headline-measure">
+<h1 class="headline-title" itemprop="headline"><txp:title /></h1>
+<p class="headline-text" itemprop="alternativeHeadline"><txp:excerpt /></p>
+</div>
+
+<div itemprop="articleBody">
+<txp:body />
+</div>
+
+<txp:if_custom_field name="subhead">
+<div class="feature">
+<blockquote><txp:custom_field name="subhead" /></blockquote>
+</div>
+</txp:if_custom_field>
+
+<txp:hide>
+
+<div class="videowrap" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
+<h2>Promo Video</h2>
+<video controls preload="metadata">
+  <source itemprop="contentUrl" type="video/mp4" src="/images/wavy640.mp4">
+  <source itemprop="contentUrl" type="video/webm" src="/images/wavy640.webm">
+  <p>Your browser doesn't support HTML video. (Link to the download goes here).</p>
+</video>
+  <meta itemprop="name" content="Wavy Waves" />
+  <meta itemprop="description" content="Waves in space">
+  <meta itemprop="duration" content="T29S">
+<p>There is a higher quality version available to download (7MB). 
+Video by <a href="https://pixabay.com/users/tommyvideo-3092371/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4968">Tomislav Jakupec</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4968">Pixabay</a></p>
+</div>
+
+</txp:hide>
+
+</article>
+

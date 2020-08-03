@@ -1,0 +1,4 @@
+<li class="article" itemscope itemtype="https://schema.org/Article">
+    <h4 itemprop="headline"><txp:title /></h4>
+       <p><txp:search_result_excerpt /></p>
+</li>
