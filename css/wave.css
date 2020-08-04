@@ -945,8 +945,6 @@ html {font-size: 110%;}
 /* ======= ALL COLOURS USED =========================================
 	 ========================================================================== */
 
-
-
 .site-header,
 .nav,blockquote 
 {background: #fff; }
@@ -967,10 +965,11 @@ button:hover,
 .headline,
 #contact, 
 #contact a, 
-#contact a:visited  
+#contact a:visited.
+code  
 {background: #dfeff8; }
 
-p#contact {border-bottom: 1px solid #84bfe1;}
+p#contact {border-bottom: 1px solid #6fb4dc;}
 
 .headline-title,
 .headline-text,
@@ -1057,9 +1056,9 @@ mark
 
 .article h2 span.subhead {color: #6fb4dc; }
 
-blockquote {border: 1px solid #6fb4dc; }
-
-code {background: #eff7fc;border: 1px solid #dfeff8; }
+blockquote,
+code
+{border: 1px solid #6fb4dc; }
 
 span.button,
 button, 
