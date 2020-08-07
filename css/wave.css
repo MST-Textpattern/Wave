@@ -945,9 +945,14 @@ html {font-size: 110%;}
 /* ======= ALL COLOURS USED =========================================
 	 ========================================================================== */
 
-.site-header,
-.nav,blockquote 
-{background: #fff; }
+body,
+#contact, 
+#contact a, 
+#contact a:visited,
+.article h1, 
+.section_head h2,
+.article h4 
+{color: #1e597b; }
 
 span.button,
 span.button:visited,
@@ -962,12 +967,6 @@ button:hover,
 [type=submit]:hover
 {color: #fff;}
 
-.headline,
-#contact, 
-#contact a, 
-#contact a:visited.
-code  
-{background: #dfeff8; }
 
 p#contact {border-bottom: 1px solid #6fb4dc;}
 
@@ -979,25 +978,6 @@ h2,h3,figcaption,
 .article h3,
 code
 {color: #3294cd; }
-
-body,
-#contact, 
-#contact a, 
-#contact a:visited,
-.article h1, 
-.section_head h2,
-.article h4 
-{color: #1e597b; }
-
-.footer,
-.article,
-.article.reinforce,
-#what, #why 
-{background: #eff1f4;}
-
-.article.zebra,
-#who 
-{background: #e3eef5; }
 
 .aside fieldset, 
 .aside input, 
@@ -1047,12 +1027,6 @@ button:focus,
 [type=submit]:focus 
 {border-color: #e9397c;  }
 
-.nav a:hover,
-.nav a:active, 
-.nav a:focus,
-a.topl,a.topr,
-mark
-{background: transparent; }
 
 .article h2 span.subhead {color: #6fb4dc; }
 
@@ -1085,4 +1059,34 @@ button:focus,
     border-color: #e9397c;
     outline: 1px solid #e9397c;
   }
-span.button, .nav li a span.button {color: #fff !important; line-height: 2;}
+span.button, .nav li a span.button 
+{color: #fff !important; line-height: 2;}
+
+.site-header,
+.nav,
+blockquote 
+{background: #fff; }
+
+.nav a:hover,
+.nav a:active, 
+.nav a:focus,
+a.topl,a.topr,
+mark
+{background: transparent; }
+
+.footer,
+.article,
+.article.reinforce,
+#what, #why 
+{background: #eff1f4;}
+
+.article.zebra,
+#who 
+{background: #e3eef5; }
+
+.headline,
+#contact, 
+#contact a, 
+#contact a:visited,
+code
+{background: #dfeff8; }
